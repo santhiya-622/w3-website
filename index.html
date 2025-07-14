@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="w3-light-grey">
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+  <a href="#" class="w3-bar-item w3-button w3-border-bottom w3-large">
+    <img src="images/image7.jpg" style="width:100%" alt="Avatar">
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button"><i class="fa fa-th-large"></i>  PORTFOLIO</a>
+  <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i>  ABOUT</a>
+  <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>  CONTACT</a>
+  <div class="w3-container w3-padding-16">
+    <p>Template by W3.CSS</p>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+  </div>
+</nav>
+<!-- for small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+<!-- menu button for mobile and tablet -->
+<div class="w3-top w3-hide-large w3-hide-medium">
+  <div class="w3-bar w3-white w3-xlarge">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-16" onclick="w3_open()">&#9776;</a>
+  </div>
+</div>
+
+<!--   tablet  -->
+<div class="w3-top w3-hide-small w3-hide-large">
+  <div class="w3-bar w3-white w3-xlarge">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-16" onclick="w3_open()">&#9776;</a>
+  </div>
+</div>
+
+
+<!-- Main  -->
+<div class="w3-main" style="margin-left:300px">
+ <!-- Head -->
+  <div class="w3-container">
+  <h1 class="w3-xxxlarge">My Portfolio</h1>
+  <div class="w3-section">
+    <button class="w3-button w3-black">ALL</button>
+    <button class="w3-button w3-white w3-border">Design</button>
+    <button class="w3-button w3-white w3-border">Photos</button>
+    <button class="w3-button w3-white w3-border">Art</button>
+  </div>
+</div>
+ <!-- Portfolio -->
+<div class="w3-padding-64 w3-content" id="portfolio">
+  <h2 class="w3-text-grey">My Work</h2>
+  <hr class="w3-opacity">
+<!-- Row 1 -->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/image1.jpg" alt="Work 1" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Project 1</b></p>
+        <p>Short description of Project 1.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/image2.jpg" alt="Work 2" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Project 2</b></p>
+        <p>Short description of Project 2.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/image3.jpg" alt="Work 3" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Project 3</b></p>
+        <p>Short description of Project 3.</p>
+      </div>
+    </div>
+  </div>
+<!-- Row 2 -->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/image4.jpg" alt="Work 4" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Project 4</b></p>
+        <p>Short description of Project 4.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/image5.jpg" alt="Work 5" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Project 5</b></p>
+        <p>Short description of Project 5.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/image6.jpg" alt="Work 6" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Project 6</b></p>
+        <p>Short description of Project 6.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+  <!-- About -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="about">
+    <h2 class="w3-text-grey">About Me</h2>
+    <hr class="w3-opacity">
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+    <h3 class="w3-padding-16">Technical Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-light-grey">
+      <div class="w3-dark-grey w3-center w3-padding" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+      <div class="w3-dark-grey w3-center w3-padding" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-light-grey">
+      <div class="w3-dark-grey w3-center w3-padding" style="width:80%">80%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br> Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br> Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br> Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br> Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    
+  </div>
+
+  <!-- Price -->
+  <div class="w3-padding-64 w3-content" id="packages">
+    <h2 class="w3-text-grey">How much I charge</h2>
+    <hr class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">1GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16 w3-xlarge">$10<br><span class="w3-large">per month</span></li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large w3-hover-green">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16 w3-xlarge">$25<br><span class="w3-large">per month</span></li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large w3-hover-green">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Unlimited Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16 w3-xlarge">$50<br><span class="w3-large">per month</span></li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large w3-hover-green">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact-->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-black">Contact Me</h2>
+    <hr class="w3-opacity">
+    <div class="w3-row w3-center w3-light-grey w3-padding-32">
+      <div class="w3-third">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>email@example.com</p>
+      </div>
+      <div class="w3-third">
+        <i class="fa fa-map-marker w3-xxlarge"></i>
+        <p>Chicago, US</p>
+      </div>
+      <div class="w3-third">
+        <i class="fa fa-phone w3-xxlarge"></i>
+        <p>512312311</p>
+      </div>
+    </div>
+    <br>
+    <p>USER DETAILS</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required></p>
+      <p><button class="w3-button w3-black w3-padding-large" type="submit"><i class="fa fa-paper-plane"></i> Send Message</button></p>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>FOOTER</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      </div>
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16">
+            <img src="https://www.w3schools.com/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Lorem</span><br>
+            Sed mattis nunc
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://www.w3schools.com/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Ipsum</span><br>
+            Praes tinci sed
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="w3-center">Powered by <a href="https://www.w3schools.com/w3css/" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+
+</div>
+
+<script>
+  // Close sidebar small screens
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+
+
+</body>
+</html>
